@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: "DejaVu";
+    src: url("fonts/dejavu-sans/DejaVuSans.ttf") format("truetype");
+}
+.impar {
+    background-color: rgb(248, 126, 132);
+    font-family: "DejaVu", Verdana, sans-serif;
+}
+
+#id-num2{
+    color: rgb(17, 0, 253);
+    font-size: 36px;
+}
+
+.font24{
+    font-size: 24px;
+}
+
+#id-num4{
+    background-color:  rgb(115, 252, 81);
+    font-weight: bold;
+}
