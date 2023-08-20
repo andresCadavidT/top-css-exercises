@@ -8,8 +8,35 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.plant-container{
+  display: flex;
+  justify-content: space-around;
+
+  /* 
+    Solucion planteada por TOP
+    justify-content: center; 
+    gap: 52px; 
+
+    entiendo porque es mejor, 
+    solo quiero dejar el historico de como lo hice yo
+  */
+}
+
+.plant-box{
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
 }
 
 /* do not edit this footer */
